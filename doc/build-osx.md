@@ -28,7 +28,7 @@ If you want to build with ZeroMQ support
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Litecoin Core
+Build Vuicoin Core
 ------------------------
 
 1. Clone the litecoin source code and cd into `litecoin`
@@ -57,19 +57,19 @@ Build Litecoin Core
 Running
 -------
 
-Litecoin Core is now available at `./src/litecoind`
+Vuicoin Core is now available at `./src/litecoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
 
 The first time you run litecoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Vuicoin/debug.log
 
 Other commands:
 -------

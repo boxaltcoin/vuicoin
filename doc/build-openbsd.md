@@ -26,7 +26,7 @@ See [dependencies.md](dependencies.md) for a complete overview.
 GCC
 -------
 
-The default C++ compiler that comes with OpenBSD 6.2 is g++ 4.2.1. This version is old (from 2007), and is not able to compile the current version of Litecoin Core because it has no C++11 support. We'll install a newer version of GCC:
+The default C++ compiler that comes with OpenBSD 6.2 is g++ 4.2.1. This version is old (from 2007), and is not able to compile the current version of Vuicoin Core because it has no C++11 support. We'll install a newer version of GCC:
 
 ```bash
  pkg_add g++
@@ -76,7 +76,7 @@ The change will only affect the current shell and processes spawned by it. To
 make the change system-wide, change `datasize-cur` and `datasize-max` in
 `/etc/login.conf`, and reboot.
 
-### Building Litecoin Core
+### Building Vuicoin Core
 
 **Important**: use `gmake`, not `make`. The non-GNU `make` will exit with a horrible error.
 

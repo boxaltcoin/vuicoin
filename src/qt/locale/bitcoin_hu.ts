@@ -62,12 +62,12 @@
         <translation>Fogadási cím</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezek a Litecoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
+        <source>These are your Vuicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezek a Vuicoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezek a Litecoin címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
+        <source>These are your Vuicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezek a Vuicoin címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -331,8 +331,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Litecoin küldése megadott címre</translation>
+        <source>Send coins to a Vuicoin address</source>
+        <translation>Vuicoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -355,8 +355,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Vuicoin</source>
+        <translation>Vuicoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -383,12 +383,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Litecoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Vuicoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Vuicoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Litecoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Vuicoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Vuicoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -427,8 +427,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Litecoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Litecoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Vuicoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a Vuicoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Vuicoin hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -471,8 +471,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Naprakész</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
-        <translation>A %1 súgó megjelenítése a Litecoin lehetséges parancssori kapcsolóinak listájával</translation>
+        <source>Show the %1 help message to get a list with possible Vuicoin command-line options</source>
+        <translation>A %1 súgó megjelenítése a Vuicoin lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -541,8 +541,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A Litecoin működése nem biztonságos és hamarosan leáll.</translation>
+        <source>A fatal error occurred. Vuicoin can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A Vuicoin működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -731,8 +731,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Litecoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Vuicoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Vuicoin-cím.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1025,16 +1025,16 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Költése a a jóváhagyatlan változásnak</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Litecoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Vuicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Vuicoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Litecoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Vuicoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Vuicoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1069,8 +1069,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Csatlakozás a Litecoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <source>Connect to the Vuicoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Csatlakozás a Vuicoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1168,8 +1168,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Litecoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vuicoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Vuicoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1255,8 +1255,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Litecoin cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Vuicoin address or malformed URI parameters.</source>
+        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Vuicoin cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1345,8 +1345,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Ad meg egy Litecoin címet (pl: %1)</translation>
+        <source>Enter a Vuicoin address (e.g. %1)</source>
+        <translation>Ad meg egy Vuicoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1733,8 +1733,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Újrafelhasznál egy létező fogadó címet (nem ajánlott)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Litecoin hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vuicoin network.</source>
+        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Vuicoin hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2090,8 +2090,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Csak a szükséges %1 díj fizetése</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Litecoin cím</translation>
+        <source>Warning: Invalid Vuicoin address</source>
+        <translation>Figyelmeztetés: Érvénytelen Vuicoin cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2129,8 +2129,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Válassz egy korábban már használt címet</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>Erre a Litecoin címre küldje az összeget</translation>
+        <source>The Vuicoin address to send the payment to</source>
+        <translation>Erre a Vuicoin címre küldje az összeget</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2202,8 +2202,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>Litecoin cím, amivel alá kívánja írni az üzenetet</translation>
+        <source>The Vuicoin address to sign the message with</source>
+        <translation>Vuicoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2234,7 +2234,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Vuicoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2250,12 +2250,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>Litecoin cím, amivel aláírta az üzenetet</translation>
+        <source>The Vuicoin address the message was signed with</source>
+        <translation>Vuicoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Litecoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified Vuicoin address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Vuicoin címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2787,8 +2787,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
 </translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Vuicoin Core</source>
+        <translation>Vuicoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

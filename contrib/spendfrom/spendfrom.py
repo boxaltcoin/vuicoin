@@ -38,9 +38,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the litecoin data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/Litecoin/")
+        return os.path.expanduser("~/Library/Application Support/Vuicoin/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "Litecoin")
+        return os.path.join(os.environ['APPDATA'], "Vuicoin")
     return os.path.expanduser("~/.litecoin")
 
 def read_bitcoin_config(dbdir):

@@ -830,7 +830,7 @@ void InitLogging()
     fLogIPs = gArgs.GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Litecoin version %s\n", FormatFullVersion());
+    LogPrintf("Vuicoin version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only

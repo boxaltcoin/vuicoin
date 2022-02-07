@@ -362,7 +362,7 @@ class BitcoinTestFramework(object):
         self.log.addHandler(ch)
 
         if self.options.trace_rpc:
-            rpc_logger = logging.getLogger("LitecoinRPC")
+            rpc_logger = logging.getLogger("VuicoinRPC")
             rpc_logger.setLevel(logging.DEBUG)
             rpc_handler = logging.StreamHandler(sys.stdout)
             rpc_handler.setLevel(logging.DEBUG)
