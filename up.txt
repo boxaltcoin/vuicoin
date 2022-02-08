@@ -1,0 +1,81 @@
+Upgrade your coin from Litecoin version 0.16
+
+Làm lại các công việc cũ nhưng ở nhánh b 0.16
+
+############################ Change info ####################################
+
+find ./ -type f -readable -writable -exec sed -i "s/litecoin-project/boxaltcoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/Litecoin/Vuicoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/LiteCoin/VuiCoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/LTC/VUI/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/litecoin/vuicoin/g" {} \;
+
+Nhấn Ctr + H để hiển thị thư mục bị ẩn
+
+Xóa file .git/index
+
+
+############################## Change unit ##################################
+
+
+find ./ -type f -readable -writable -exec sed -i "s/lites/namvui/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/photons/thangvui/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/litoshi/ngayvui/g" {} \;
+
+
+############################ Change port ####################################
+
+find ./ -type f -readable -writable -exec sed -i "s/9333/9888/g" {} \;
+
+############################ Rename ####################################
+
+find . -exec rename 's/litecoin/vuicoin/' {} ";"
+
+############################ Copy old chain to new version ####################################
+
+Backup your file to some where
+
+src/chainparams.cpp
+
+wallet.dat
+
+
+
+
+############################ Set Minimun ChainWorks, checkpoint data ####################################
+
+getblockchaininfo
+
+
+
+############################ Build new version ####################################
+
+sudo apt install curl
+
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils git cmake libboost-all-dev libgmp3-dev bsdmainutils python3
+
+sudo apt-get install libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
+
+sudo apt-get install libminiupnpc-dev
+
+sudo apt-get install libqrencode-dev
+
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler qrencode
+
+
+./autogen.sh
+
+./configure
+
+make -j4
+
+
+Nếu trong quá trình build bị lỗi các bạn thử như mình xem sao
+Nhưng mình nghĩ là do máy yếu thôi ^^
+Kết quả là nâng cấp thành công là được rồi
