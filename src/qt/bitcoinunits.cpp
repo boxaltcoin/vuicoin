@@ -44,8 +44,8 @@ QString BitcoinUnits::longName(int unit)
     {
     case BTC: return QString("VUI");
     case mBTC: return QString("namvui");
-    case uBTC: return QString("photons");
-    case SAT: return QString("litoshi");
+    case uBTC: return QString("thangvui");
+    case SAT: return QString("ngayvui");
     default: return QString("???");
     }
 }
