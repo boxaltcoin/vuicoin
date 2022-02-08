@@ -1,8 +1,8 @@
 <!-- This issue tracker is only for technical issues related to Vuicoin Core.
 
-General litecoin questions and/or support requests and are best directed to the [litecointalk.io forums](https://litecointalk.io/).
+General vuicoin questions and/or support requests and are best directed to the [vuicointalk.io forums](https://vuicointalk.io/).
 
-For reporting security issues, please contact the Vuicoin developers on the #litecoin-dev Freenode IRC channel or alternatively you can email us at contact@litecoin.org.
+For reporting security issues, please contact the Vuicoin developers on the #vuicoin-dev Freenode IRC channel or alternatively you can email us at contact@vuicoin.org.
 
 If the node is "stuck" during sync or giving "block checksum mismatch" errors, please ensure your hardware is stable by running memtest and observe CPU temperature with a load-test tool such as linpack before creating an issue! -->
 

@@ -95,7 +95,7 @@ Alice, Bob, and Carol want to create a 2-of-3 multisig address. They're all usin
 Vuicoin Core. We assume their wallets only contain the multisig funds. In case
 they also have a personal wallet, this can be accomplished through the
 multiwallet feature - possibly resulting in a need to add `-rpcwallet=name` to
-the command line in case `litecoin-cli` is used.
+the command line in case `vuicoin-cli` is used.
 
 Setup:
 - All three call `getnewaddress` to create a new address; call these addresses

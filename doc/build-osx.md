@@ -43,8 +43,8 @@ Build Vuicoin Core
 
 1. Clone the Vuicoin Core source code:
 
-        git clone https://github.com/boxaltcoin/litecoin
-        cd litecoin
+        git clone https://github.com/boxaltcoin/vuicoin
+        cd vuicoin
 
 2.  Build Vuicoin Core:
 
@@ -70,9 +70,9 @@ Build Vuicoin Core
 
     or
 
-        cd ~/litecoin/src
-        cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cd ~/vuicoin/src
+        cp vuicoind /usr/local/bin/
+        cp vuicoin-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
@@ -88,17 +88,17 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Vuicoin Core is now available at `./src/litecoind`
+Vuicoin Core is now available at `./src/vuicoind`
 
 Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/Vuicoin"
 
-    touch "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
+    touch "/Users/${USER}/Library/Application Support/Vuicoin/vuicoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Vuicoin/vuicoin.conf"
 
-The first time you run litecoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run vuicoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -107,9 +107,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/litecoind -daemon # Starts the litecoin daemon.
-    ./src/litecoin-cli --help # Outputs a list of command-line options.
-    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/vuicoind -daemon # Starts the vuicoin daemon.
+    ./src/vuicoin-cli --help # Outputs a list of command-line options.
+    ./src/vuicoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

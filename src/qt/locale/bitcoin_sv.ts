@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Vuicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Vuicoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar litecoin.</translation>
+        <translation>Detta är dina Vuicoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar vuicoin.</translation>
     </message>
     <message>
         <source>These are your Vuicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -189,8 +189,8 @@ Försök igen.</translation>
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Din plånbok är nu krypterad. Kom ihåg att kryptering av plånboken inte helt skyddar dina litecoin från att stjälas av skadlig kod som infekterat din dator.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
+        <translation>Din plånbok är nu krypterad. Kom ihåg att kryptering av plånboken inte helt skyddar dina vuicoin från att stjälas av skadlig kod som infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -344,7 +344,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Send coins to a Vuicoin address</source>
-        <translation>Skicka litecoin till en Vuicoin-adress</translation>
+        <translation>Skicka vuicoin till en Vuicoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -415,8 +415,8 @@ Försök igen.</translation>
         <translation>Verktygsfält för flikar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och litecoin: -URIer)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Begär betalningar (skapar QR-koder och vuicoin: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,8 +427,8 @@ Försök igen.</translation>
         <translation>Visa listan med använda mottagaradresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Öppna en litecoin: URI eller betalningsbegäran</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Öppna en vuicoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -945,12 +945,12 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Vuicoin-nätverket enligt informationen nedan.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera litecoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Att försöka spendera vuicoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1369,16 +1369,16 @@ Försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan inte starta litecoin: klicka-och-betala hanteraren</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>Kan inte starta vuicoin: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI-hantering</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' är inte en accepterad URI. Använd 'litecoin:' istället.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin://' är inte en accepterad URI. Använd 'vuicoin:' istället.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2236,8 +2236,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Damm:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på litecointransaktioner är större än vad nätverket kan hantera.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
+        <translation>När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på vuicointransaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2447,8 +2447,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ta bort denna post</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre litecoin än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre vuicoin än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2475,8 +2475,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>Ett meddelande som bifogades litecoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Vuicoin-nätverket.</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>Ett meddelande som bifogades vuicoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Vuicoin-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2520,8 +2520,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>&amp;Signera meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot litecoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot vuicoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
         <source>The Vuicoin address to sign the message with</source>
@@ -3687,7 +3687,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med litecoins</translation>
+        <translation>Otillräckligt med vuicoins</translation>
     </message>
     <message>
         <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use -upgradewallet=169900 or -upgradewallet with no version specified.</source>

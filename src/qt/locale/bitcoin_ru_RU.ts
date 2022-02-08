@@ -188,7 +188,7 @@
         <translation>Кошелек зашифрован</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
         <translation>Ваш кошелек теперь зашифрован. Помните, что шифрование вашего кошелька не может полностью защитить ваши Vuicoinы от кражи вредоносным ПО.</translation>
     </message>
     <message>
@@ -414,7 +414,7 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
         <translation>Запросить платеж</translation>
     </message>
     <message>
@@ -426,7 +426,7 @@
         <translation>Показать список использованных адресов и меток получателей</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a vuicoin: URI or payment request</source>
         <translation>Открыть Vuicoin: URI или запрос платежа</translation>
     </message>
     <message>
@@ -944,11 +944,11 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>Последние транзакции пока могут быть не видны, поэтому вы можете видеть некорректный баланс ваших кошельков. Отображаемая информация будет верна после завершения синхронизации. Прогресс синхронизации вы можете видеть ниже.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Попытка потратить средства, использованные в транзакциях, которые ещё не синхронизированы, будет отклонена сетью.</translation>
     </message>
     <message>
@@ -1368,16 +1368,16 @@
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить litecoin: обработчик click-to-pay</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить vuicoin: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Обработка идентификатора</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' не верный URI. Используйте 'litecoin:' вместо этого.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin://' не верный URI. Используйте 'vuicoin:' вместо этого.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2231,7 +2231,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Пыль:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
         <translation>Когда объем транзакций меньше, чем пространство в блоках, майнеры, а также ретранслирующие узлы могут устанавливать минимальную плату. Платить только эту минимальную комиссию - это хорошо, но имейте в виду, что это может привести к тому, что транзакция никогда не будет подтверждена, если будет больше Vuicoin-транзакций, чем может обработать сеть.</translation>
     </message>
     <message>
@@ -2438,7 +2438,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Удалить эту запись</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше лайткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
     </message>
     <message>
@@ -2466,8 +2466,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>Введите метку для этого адреса, чтобы добавить его в список используемых адресов</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>Сообщение прикрепленное к litecoin идентификатору будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Vuicoin.</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>Сообщение прикрепленное к vuicoin идентификатору будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Vuicoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2511,7 +2511,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>&amp;Подписать Сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать лайткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>

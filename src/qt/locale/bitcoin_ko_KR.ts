@@ -188,7 +188,7 @@
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
         <translation>이제 지갑이 암호화되었습니다. 지갑을 암호화한다고 해서 당신의 컴퓨터를 감염시키는 멀웨어로부터 라이트코인을 완전히 보호할 수는 없다는 점을 유념하세요.</translation>
     </message>
     <message>
@@ -414,8 +414,8 @@
         <translation>툴바 색인표</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>지불 요청하기 (QR코드와 litecoin: URI를 생성합니다)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>지불 요청하기 (QR코드와 vuicoin: URI를 생성합니다)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>한번 이상 사용된 받는 주소와 라벨의 목록을 보여줍니다</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>litecoin: URI 또는 지불요청 열기</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>vuicoin: URI 또는 지불요청 열기</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -944,11 +944,11 @@
         <translation>유형</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>최근 거래는 아직 보이지 않을 것입니다, 그러므로 당신의 지갑의 잔액이 틀릴 수도 있습니다. 이 정보는 라이트코인 네트워크와 완전한 동기화가 완료되면 아래의 설명과 같이 정확해집니다.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>아직 표시되지 않은 거래의 영향을 받는 라이트코인을 사용하려고 하는 것은 네트워크에서 허가되지 않습니다.</translation>
     </message>
     <message>
@@ -1368,16 +1368,16 @@
         <translation>지불 요청 오류</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>litecoin: 핸들러를 시작할 수 없음</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>vuicoin: 핸들러를 시작할 수 없음</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI 핸들링</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://"은 잘못된 URI입니다. 'litecoin:'을 사용하십시오.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin://"은 잘못된 URI입니다. 'vuicoin:'을 사용하십시오.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2235,7 +2235,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>더스트:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
         <translation>거래량이 블록에 남은 공간보다 적은 경우에는 채굴자나 중계 노드들이 최소 수수료를 허용할 수 있습니다. 최소 수수료만 지불하는건 괜찮지만, 네트워크가 처리할 수 있는 용량을 넘는 라이트코인 거래가 있을 경우에는 이 거래가 승인이 안될 수 있다는 점을 유의하세요.</translation>
     </message>
     <message>
@@ -2446,7 +2446,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>입력된 항목 삭제</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>수수료가 송금되는 금액에서 공제됩니다. 수령자는 금액 필드에서 입력한 금액보다 적은 금액을 전송받게 됩니다. 받는 사람이 여러 명인 경우 수수료는 균등하게 나누어집니다.</translation>
     </message>
     <message>
@@ -2474,8 +2474,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>이 주소에 라벨을 입력하면 사용된 주소 목록에 라벨이 표시됩니다</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>litecoin: URI에 추가된 메시지는 참고를 위해 거래내역과 함께 저장될 것입니다. Note: 이 메시지는 라이트코인 네트워크로 전송되지 않습니다.</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>vuicoin: URI에 추가된 메시지는 참고를 위해 거래내역과 함께 저장될 것입니다. Note: 이 메시지는 라이트코인 네트워크로 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2519,7 +2519,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>메시지 서명(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>당신이 해당 주소로 라이트코인을 받을 수 있다는 것을 증명하기 위해 메시지/합의문을 그 주소로 서명할 수 있습니다. 피싱 공격이 당신을 속일 수 있으므로 임의의 내용이나 모호한 내용에 서명하지 않도록 주의하세요. 당신이 동의하는 명확한 조항들에만 서명하세요.</translation>
     </message>
     <message>

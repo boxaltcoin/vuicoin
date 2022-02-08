@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Vuicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Vuicoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw litecoins verzendt.</translation>
+        <translation>Dit zijn uw Vuicoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw vuicoins verzendt.</translation>
     </message>
     <message>
         <source>These are your Vuicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -188,8 +188,8 @@
         <translation>Portemonnee versleuteld</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Uw portemonnee is nu versleuteld. Onthoud dat het versleutelen van uw portemonnee uw litecoins niet volledig kan beschermen tegen diefstal, bijvoorbeeld door malware die uw computer infecteert.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
+        <translation>Uw portemonnee is nu versleuteld. Onthoud dat het versleutelen van uw portemonnee uw vuicoins niet volledig kan beschermen tegen diefstal, bijvoorbeeld door malware die uw computer infecteert.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -414,8 +414,8 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en litecoin: URI's)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en vuicoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Toon de lijst met gebruikte ontvangstadressen en labels</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Open een litecoin: URI of betalingsverzoek</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Open een vuicoin: URI of betalingsverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -944,12 +944,12 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Vuicoin-netwerk werd voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Poging om litecoins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Poging om vuicoins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1368,16 +1368,16 @@
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan litecoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>Kan vuicoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI-behandeling</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' is niet een geldige URI. Gebruik 'litecoin:' in plaats daarvan.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin://' is niet een geldige URI. Gebruik 'vuicoin:' in plaats daarvan.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2235,8 +2235,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Stof:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
-        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar litecointransacties dan het netwerk kan verwerken.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
+        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar vuicointransacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2446,8 +2446,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Verwijder deze toevoeging</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder litecoins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder vuicoins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2474,8 +2474,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de litecoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Vuicoinnetwerk.</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de vuicoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Vuicoinnetwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2519,7 +2519,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>&amp;Onderteken bericht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Vuicoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
     </message>
     <message>

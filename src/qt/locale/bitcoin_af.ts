@@ -394,8 +394,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en litecoin: URI's)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en vuicoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -406,8 +406,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Skep 'n litecoin: URI of betalingsversoek</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Skep 'n vuicoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1746,7 +1746,7 @@ Is u seker?</translation>
         <translation>Verwyder hierdie inskrywing</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>De fooi word afgetrek van die gestuurde bedrag.
 Die ontvanger sal minder ontvang as wat u in die 
 bedrag opgee. As daar meer as een ontvanger is,

@@ -176,8 +176,8 @@
         <translation>Na-encrypt ang walet.</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Na-encrypt na ang iyong walet. Tandaan na ang pag-encrypt ng iyong walet ay hindi ganap na proteksyon sa iyong litecoins na maaaring manakaw sa pamamagitan ng malware na makahawa sa iyong computer.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
+        <translation>Na-encrypt na ang iyong walet. Tandaan na ang pag-encrypt ng iyong walet ay hindi ganap na proteksyon sa iyong vuicoins na maaaring manakaw sa pamamagitan ng malware na makahawa sa iyong computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -390,8 +390,8 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Humiling ng bayad (lumilikha ng QR codes at litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Humiling ng bayad (lumilikha ng QR codes at vuicoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -402,8 +402,8 @@
         <translation>Ipakita ang talaan ng mga gamit na address at label para sa pagtanggap</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Buksan ang litecoin: URI o kahilingan ng bayad</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Buksan ang vuicoin: URI o kahilingan ng bayad</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -840,12 +840,12 @@
 <context>
     <name>ModalOverlay</name>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Ang mga bagong transaksyon ay hindi pa makikita kaya ang balanse ng iyong walet ay maaaring hindi tama. Ang impormasyong ito ay maiitama pagkatapos ma-synchronize ng iyong walet sa litecoin network, ayon sa ibaba.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
+        <translation>Ang mga bagong transaksyon ay hindi pa makikita kaya ang balanse ng iyong walet ay maaaring hindi tama. Ang impormasyong ito ay maiitama pagkatapos ma-synchronize ng iyong walet sa vuicoin network, ayon sa ibaba.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Ang pagtangkang gastusin ang mga litecoin na apektado ng mga transaksyon na hindi pa naipapakita ay hindi tatanggapin ng network.</translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Ang pagtangkang gastusin ang mga vuicoin na apektado ng mga transaksyon na hindi pa naipapakita ay hindi tatanggapin ng network.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>

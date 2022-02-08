@@ -362,8 +362,8 @@
         <translation>說明 &amp;H</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>要求付款 (產生QR碼 litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>要求付款 (產生QR碼 vuicoin: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>

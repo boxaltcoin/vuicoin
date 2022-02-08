@@ -188,7 +188,7 @@
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
         <translation>你的钱包现在已被加密。请记住，对钱包进行加密仍然不能完全防止感染电脑的恶意软件偷取你的莱特币。</translation>
     </message>
     <message>
@@ -414,8 +414,8 @@
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>请求支付 (生成二维码和 litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>请求支付 (生成二维码和 vuicoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>打开一个 litecoin: URI 或支付请求</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>打开一个 vuicoin: URI 或支付请求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -939,11 +939,11 @@
         <translation>表单</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与莱特币网络完全同步后更正。详情如下</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>尝试使用受未可见交易影响的余额将不被网络接受。</translation>
     </message>
     <message>
@@ -1363,8 +1363,8 @@
         <translation>要求付款时发生错误</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>无法启动 litecoin 协议的“
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>无法启动 vuicoin 协议的“
 一键支付”处理器</translation>
     </message>
     <message>
@@ -1372,8 +1372,8 @@
         <translation>URI 处理</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>‘litecoin://’不是合法的URI。请使用'litecoin:'作为替代。</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>‘vuicoin://’不是合法的URI。请使用'vuicoin:'作为替代。</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2223,7 +2223,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>粉尘：</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
         <translation>当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出莱特币网络能处理的限度，你的交易可能永远也无法确认。</translation>
     </message>
     <message>
@@ -2434,7 +2434,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>移除此项</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的莱特币。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
@@ -2462,8 +2462,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>litecoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过莱特币网络传输。</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>vuicoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过莱特币网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2507,7 +2507,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的莱特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>

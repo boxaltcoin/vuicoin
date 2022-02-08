@@ -306,7 +306,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de Vuicoin)</translation>
     </message>
     <message>
@@ -318,8 +318,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir un litecoin: URI o petición de pago</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Abrir un vuicoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

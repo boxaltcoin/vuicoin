@@ -331,7 +331,7 @@
     </message>
     <message>
         <source>Send coins to a Vuicoin address</source>
-        <translation>Enviar monedas a una dirección litecoin</translation>
+        <translation>Enviar monedas a una dirección vuicoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -402,8 +402,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and vuicoin: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -414,8 +414,8 @@
         <translation>Mostrar la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir un identificador URI litecoin o una petición de pago</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Abrir un identificador URI vuicoin o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -860,12 +860,12 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de litecoin, como se detalla abajo.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
+        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de vuicoin, como se detalla abajo.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>La red no aceptará el intentar gastar litecoins que están afectados por transacciones aún no mostradas.</translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>La red no aceptará el intentar gastar vuicoins que están afectados por transacciones aún no mostradas.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -2819,7 +2819,7 @@
     </message>
     <message>
         <source>Vuicoin Core</source>
-        <translation>litecoin core</translation>
+        <translation>vuicoin core</translation>
     </message>
     <message>
         <source>The %s developers</source>

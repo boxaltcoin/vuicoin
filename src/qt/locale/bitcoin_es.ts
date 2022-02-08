@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Vuicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Vuicoin para enviar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar litecoins.</translation>
+        <translation>Estas son sus direcciones Vuicoin para enviar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar vuicoins.</translation>
     </message>
     <message>
         <source>These are your Vuicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -188,8 +188,8 @@
         <translation>Monedero cifrado</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Monedero encriptado. Recuerda que encriptando tu monedero no garantiza mantener a salvo tus litecoins en caso de tener viruses en el ordenador.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
+        <translation>Monedero encriptado. Recuerda que encriptando tu monedero no garantiza mantener a salvo tus vuicoins en caso de tener viruses en el ordenador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a Vuicoin address</source>
-        <translation>Enviar litecoins a una dirección Vuicoin</translation>
+        <translation>Enviar vuicoins a una dirección Vuicoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -414,8 +414,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "litecoin:")</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "vuicoin:")</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "litecoin:" o una petición de pago</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Abrir un identificador URI "vuicoin:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -943,12 +943,12 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de litecoin, como se detalla abajo.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
+        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de vuicoin, como se detalla abajo.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>La red no aceptará el intentar gastar litecoins que están afectados por transacciones aún no mostradas.</translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>La red no aceptará el intentar gastar vuicoins que están afectados por transacciones aún no mostradas.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1218,7 +1218,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían litecoins.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían vuicoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1367,16 +1367,16 @@
         <translation>Fallo en la solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>No se puede iniciar litecoin: encargado click-para-pagar</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>No se puede iniciar vuicoin: encargado click-para-pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Manejo de URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin: //' no es un URI válido. Use 'litecoin:' en su lugar.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin: //' no es un URI válido. Use 'vuicoin:' en su lugar.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -2119,7 +2119,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Enviar litecoins</translation>
+        <translation>Enviar vuicoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2234,7 +2234,7 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
         <translation>Polvo:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for vuicoin transactions than the network can process.</source>
         <translation>Cuando hay menos volumen de transacciónes que espacio en los bloques, los mineros y los nodos de retransmisión pueden imponer una comisión mínima. Pagar solo esta comisión mínima está bien, pero tenga en cuenta que esto puede resultar en una transacción nunca confirmada una vez que haya más demanda de transacciones de Vuicoin de la que la red puede procesar.</translation>
     </message>
     <message>
@@ -2445,8 +2445,8 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
         <translation>Eliminar esta transacción</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comisión será deducida de la cantidad que sea mandada. El destinatario recibirá menos litecoins de la cantidad introducida en el campo Cantidad. Si hay varios destinatarios, la comisión será distribuida a partes iguales.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vuicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La comisión será deducida de la cantidad que sea mandada. El destinatario recibirá menos vuicoins de la cantidad introducida en el campo Cantidad. Si hay varios destinatarios, la comisión será distribuida a partes iguales.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2473,8 +2473,8 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
-        <translation>Un mensaje que se adjuntó a la litecoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Vuicoin.</translation>
+        <source>A message that was attached to the vuicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vuicoin network.</source>
+        <translation>Un mensaje que se adjuntó a la vuicoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Vuicoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2518,7 +2518,7 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
         <translation>&amp;Firmar mensaje</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vuicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Puede firmar los mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa de manera vaga o aleatoria, pues los ataques de phishing pueden tratar de engañarle firmando su identidad a través de ellos. Sólo firme declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
@@ -2800,7 +2800,7 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Los litecoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
+        <translation>Los vuicoins generados deben madurar %1 bloques antes de que puedan gastarse. Cuando generó este bloque, se transmitió a la red para que se añadiera a la cadena de bloques. Si no consigue entrar en la cadena, su estado cambiará a "no aceptado" y ya no se podrá gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque a pocos segundos del suyo.</translation>
     </message>
     <message>
         <source>Debug information</source>

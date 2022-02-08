@@ -1,13 +1,13 @@
 Vuicoin Core version 0.10.2.2 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.10.2.2/>
+  <https://download.vuicoin.org/vuicoin-0.10.2.2/>
 
 This is a new major version release, bringing bug fixes and translation 
 updates. It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/boxaltcoin/litecoin/issues>
+  <https://github.com/boxaltcoin/vuicoin/issues>
 
 Upgrading and downgrading
 =========================
@@ -18,7 +18,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Vuicoin-Qt (on Mac) or
-litecoind/litecoin-qt (on Linux).
+vuicoind/vuicoin-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -77,7 +77,7 @@ Notable changes since Vuicoin v0.8
 ===================================
 
 - The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
-- litecoind no longer sends RPC commands.  You must use the separate litecoin-cli command line utility.
+- vuicoind no longer sends RPC commands.  You must use the separate vuicoin-cli command line utility.
 - Watch-Only addresses are now possible.
 
 Credits

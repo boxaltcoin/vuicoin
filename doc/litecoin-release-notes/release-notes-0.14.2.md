@@ -1,17 +1,17 @@
 Vuicoin Core version 0.14.2 is now available from:
 
-  <https://download.litecoin.org/litecoin-0.14.2.0/>
+  <https://download.vuicoin.org/vuicoin-0.14.2.0/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/boxaltcoin/litecoin/issues>
+  <https://github.com/boxaltcoin/vuicoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/litecoin-dev>
+  <https://groups.google.com/forum/#!forum/vuicoin-dev>
 
 Compatibility
 ==============
@@ -53,10 +53,10 @@ Testnet3 has been deprecated and replaced with Testnet4. The server port has bee
 the same (19332).
 
 Testnet faucets can be located at:
-- http://testnet.litecointools.com
+- http://testnet.vuicointools.com
 - http://testnet.thrasher.io
 
-Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/boxaltcoin/litecoin/blob/master/src/chainparams.cpp#L220).
+Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/boxaltcoin/vuicoin/blob/master/src/chainparams.cpp#L220).
 
 Performance Improvements
 --------------
@@ -124,7 +124,7 @@ ZMQ On Windows
 
 Previously the ZeroMQ notification system was unavailable on Windows
 due to various issues with ZMQ. These have been fixed upstream and
-now ZMQ can be used on Windows. Please see [this document](https://github.com/boxaltcoin/litecoin/blob/master/doc/zmq.md) for
+now ZMQ can be used on Windows. Please see [this document](https://github.com/boxaltcoin/vuicoin/blob/master/doc/zmq.md) for
 help with using ZMQ in general.
 
 Nested RPC Commands in Debug Console
@@ -166,19 +166,19 @@ unhidden by clicking on the progress bar at the bottom of the window.
 Support for JSON-RPC Named Arguments
 ------------------------------------
 
-Commands sent over the JSON-RPC interface and through the `litecoin-cli` binary
+Commands sent over the JSON-RPC interface and through the `vuicoin-cli` binary
 can now use named arguments. This follows the [JSON-RPC specification](http://www.jsonrpc.org/specification)
 for passing parameters by-name with an object.
 
-`litecoin-cli` has been updated to support this by parsing `name=value` arguments
+`vuicoin-cli` has been updated to support this by parsing `name=value` arguments
 when the `-named` option is given.
 
 Some examples:
 
-    src/litecoin-cli -named help command="help"
-    src/litecoin-cli -named getblockhash height=0
-    src/litecoin-cli -named getblock blockhash=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
-    src/litecoin-cli -named sendtoaddress address="(snip)" amount="1.0" subtractfeefromamount=true
+    src/vuicoin-cli -named help command="help"
+    src/vuicoin-cli -named getblockhash height=0
+    src/vuicoin-cli -named getblock blockhash=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+    src/vuicoin-cli -named sendtoaddress address="(snip)" amount="1.0" subtractfeefromamount=true
 
 The order of arguments doesn't matter in this case. Named arguments are also
 useful to leave out arguments that should stay at their default value. The

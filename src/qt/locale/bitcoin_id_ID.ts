@@ -188,7 +188,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your vuicoins from being stolen by malware infecting your computer.</source>
         <translation>Wallet anda sekarang telah terenkripsi. Ingat bahwa enkripsi wallet anda tersebut tidak dapat sepenuhnya melindungi dari pencurian atau malware yang menyerang komputer anda. </translation>
     </message>
     <message>
@@ -414,8 +414,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vuicoin: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan vuicoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Buka URI litecoin: atau permintaan pembayaran</translation>
+        <source>Open a vuicoin: URI or payment request</source>
+        <translation>Buka URI vuicoin: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -916,12 +916,12 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vuicoin network, as detailed below.</source>
         <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Vuicoin, seperti rincian berikut.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Usaha untuk menggunakan litecoin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
+        <source>Attempting to spend vuicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Usaha untuk menggunakan vuicoin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1151,7 +1151,7 @@
     </message>
     <message>
         <source>Connect to the Vuicoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Koneksi ke jaringan litecoin melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
+        <translation>Koneksi ke jaringan vuicoin melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1332,16 +1332,16 @@
         <translation>Terjadi kesalahan pada permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Tidak bisa memulai litecoin: handler click-to-pay</translation>
+        <source>Cannot start vuicoin: click-to-pay handler</source>
+        <translation>Tidak bisa memulai vuicoin: handler click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Pengelolaan URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' bukanlah alamat URI yang valid. Silakan gunakan 'litecoin:'.</translation>
+        <source>'vuicoin://' is not a valid URI. Use 'vuicoin:' instead.</source>
+        <translation>'vuicoin://' bukanlah alamat URI yang valid. Silakan gunakan 'vuicoin:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
