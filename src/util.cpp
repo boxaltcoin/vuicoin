@@ -82,8 +82,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "litecoin.conf";
-const char * const BITCOIN_PID_FILENAME = "litecoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "vuicoin.conf";
+const char * const BITCOIN_PID_FILENAME = "vuicoind.pid";
 const char * const DEFAULT_DEBUGLOGFILE = "debug.log";
 
 ArgsManager gArgs;
@@ -558,7 +558,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "litecoin";
+    const char* pszModule = "vuicoin";
 #endif
     if (pex)
         return strprintf(
@@ -596,7 +596,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Vuicoin";
 #else
     // Unix
-    return pathRet / ".litecoin";
+    return pathRet / ".vuicoin";
 #endif
 #endif
 }

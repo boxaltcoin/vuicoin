@@ -2,7 +2,7 @@ NetBSD build guide
 ======================
 (updated for NetBSD 7.0)
 
-This guide describes how to build litecoind and command-line utilities on NetBSD.
+This guide describes how to build vuicoind and command-line utilities on NetBSD.
 
 This guide does not contain instructions for building the GUI.
 
@@ -25,7 +25,7 @@ python27
 
 Download the source code:
 ```
-git clone https://github.com/boxaltcoin/litecoin
+git clone https://github.com/boxaltcoin/vuicoin
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.

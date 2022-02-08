@@ -47,14 +47,14 @@ from the root of the repository.
 Build Vuicoin Core
 ------------------------
 
-1. Clone the litecoin source code and cd into `litecoin`
+1. Clone the vuicoin source code and cd into `vuicoin`
 
-        git clone https://github.com/boxaltcoin/litecoin
-        cd litecoin
+        git clone https://github.com/boxaltcoin/vuicoin
+        cd vuicoin
 
-2.  Build litecoin-core:
+2.  Build vuicoin-core:
 
-    Configure and build the headless litecoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless vuicoin binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -76,22 +76,22 @@ Build Vuicoin Core
 
     or
 
-        cd ~/litecoin/src
-        cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cd ~/vuicoin/src
+        cp vuicoind /usr/local/bin/
+        cp vuicoin-cli /usr/local/bin/
 
 Running
 -------
 
-Vuicoin Core is now available at `./src/litecoind`
+Vuicoin Core is now available at `./src/vuicoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=litecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
+    echo -e "rpcuser=vuicoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Vuicoin/vuicoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Vuicoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Vuicoin/vuicoin.conf"
 
-The first time you run litecoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run vuicoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -100,20 +100,20 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/litecoind -daemon # Starts the litecoin daemon.
-    ./src/litecoin-cli --help # Outputs a list of command-line options.
-    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/vuicoind -daemon # Starts the vuicoin daemon.
+    ./src/vuicoin-cli --help # Outputs a list of command-line options.
+    ./src/vuicoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for litecoin development.
+You can use Qt Creator as an IDE, for vuicoin development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "litecoin-qt" as project name, enter src/qt as location
+4. Enter "vuicoin-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
