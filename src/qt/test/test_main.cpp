@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     // Don't remove this, it's needed to access
     // QApplication:: and QCoreApplication:: in the tests
     BitcoinApplication app(*node);
-    app.setApplicationName("Litecoin-Qt-test");
+    app.setApplicationName("Vuicoin-Qt-test");
 
     SSL_library_init();
 
