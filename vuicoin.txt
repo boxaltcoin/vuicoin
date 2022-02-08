@@ -22,7 +22,7 @@ find ./ -type f -readable -writable -exec sed -i "s/lites/namvui/g" {} \;
 
 find ./ -type f -readable -writable -exec sed -i "s/photons/thangvui/g" {} \;
 
-find ./ -type f -readable -writable -exec sed -i "s/litetoshi/ngayvui/g" {} \;
+find ./ -type f -readable -writable -exec sed -i "s/litoshi/ngayvui/g" {} \;
 
 
 ############################ Change port ####################################
