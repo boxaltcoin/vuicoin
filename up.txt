@@ -54,7 +54,7 @@ wallet.dat
 
 getblockchaininfo
 
-
+getchaintxstats
 
 ############################ Build new version ####################################
 
