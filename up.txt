@@ -10,6 +10,8 @@ find ./ -type f -readable -writable -exec sed -i "s/Litecoin/Vuicoin/g" {} \;
 
 find ./ -type f -readable -writable -exec sed -i "s/LiteCoin/VuiCoin/g" {} \;
 
+find ./ -type f -readable -writable -exec sed -i "s/LITECOIN/VUICOIN/g" {} \;
+
 find ./ -type f -readable -writable -exec sed -i "s/LTC/VUI/g" {} \;
 
 find ./ -type f -readable -writable -exec sed -i "s/litecoin/vuicoin/g" {} \;
