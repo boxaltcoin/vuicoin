@@ -126,8 +126,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x3d957f963a8308c24522963316b4ff2295a854af8a6979ef2e9e6cbbad640ae0"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("seed1.vuicoin.xyz");
+        vSeeds.emplace_back("vuicoin1.boxaltcoin.xyz");
 
+        vSeeds.emplace_back("vuicoin2.boxaltcoin.xyz");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);// Bat dau voi chu cai V
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -230,7 +231,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet.vuicoin.xyz");
+        vSeeds.emplace_back("vuicointest.boxaltcoin.xyz");
         //vSeeds.emplace_back("seed-b.vuicoin.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
 
