@@ -153,7 +153,8 @@ nano vuicoin.conf
 
 ## Vì VPS mình chỉ mở mỗi port 9888 nên phải thêm :9888 vào sau IP
 ## Nếu VPS đã mở tất cả các port thì các bạn chỉ cần để mỗi IP thôi
-- Nếu bạn dùng cloudflare thì các record A bạn nên tắt Proxied màu vàng sang xám Proxy status DNS only
+Lưu ý:
+- Nếu bạn dùng cloudflare thì các record A (cho subdomain vSeeds.emplace_back("vuicoinseed.boxaltcoin.xyz"); )bạn nên tắt Proxied màu vàng sang xám Proxy status DNS only
 - Và không cần thêm bước addnode=xxx.xxx.xxx cho coin
 
 #addnode=3.98.131.147:9888
