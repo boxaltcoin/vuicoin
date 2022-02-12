@@ -1,0 +1,196 @@
+
+
+User mặc định của Unbuntu trên AWS là ubuntu
+
+
+##################
+
+Tạo dns seed cho coin của bạn lên môi trường internet
+
+Khởi tạo VPS của bạn với Linux hoặc Windows ở đây mình dùng Linux Ubuntu 18
+
+Nếu VPS của bạn là Windows thì bạn cần xem bài tạo wallet cho Windows sau đó sử dụng wallet đó để chạy
+
+Mình sẽ làm Video hướng dẫn làm wallet Windows và dns seed cho VPS Windows sau
+
+Mở port cho vps mà bạn đã thiết lập trong phần trước, một số nhà cung cấp đã mở sẵn tất cả các port nên bạn bỏ qua bước này
+
+ở đây vuicoin sử dụng port 9888 cho main net
+
+Kết nối vào VPS qua putty hoặc WinSCP Chú ý Windows của bạn là 32bit hay 64bit thì download bản đó.
+
+Win 64bit thì chạy được cả 32bit lẫn 64bit nhưng, Win 32bit thì chỉ chạy được bản build cho 32bit nhé
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+https://winscp.net/eng/index.php
+
+Vì AWS sử dụng key .pem nên mình dùng thêm puttygen để đổi key sang .ppk
+
+Ko cần mật khẩu nhé
+.ppk nhé
+Làm hẳn 2 cái luôn cho máu
+
+Vì đã có key pair rồi nên ko cần tạo thêm nữa
+
+Chỏ nó vào cái key .ppk vừa convert sang 
+
+https://the.earth.li/~sgtatham/putty/latest/w64/puttygen.exe
+
+
+####################################################
+python3 makeseeds.py nodes_main.txt
+
+python3 makeseeds.py nodes_test.txt
+
+python3 generate-seeds.py . > ../../src/chainparamsseeds.h
+
+##OK rồi
+
+## Build lại coin
+## Done
+## Addnode vào 2 cái VPS mới
+## Quay lại build tiếp các thư viện
+## làm luôn 2 cái cho nhanh
+
+
+### đợi nó khởi động lại
+## tranh thủ làm trong code, tiện làm luôn cái testnet cho đẹp chứ chưa dùng ^^ Test net dùng port 19355 nhé
+## Cứ để cùng nhau cho đẹp đội hình
+## khi nào nhiều tiền mua nhiều VPS sẽ đổi lại sau
+
+## Thay IP của VPS vào
+#######################################################
+
+
+Cài các thư viện cần thiết
+
+sudo apt-get update
+
+sudo apt-get install build-essential gcc make perl dkms
+
+sudo reboot
+
+
+
+
+sudo apt-get install libssl-dev openssl curl git
+ 
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+ 
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+ 
+sudo apt-get install libboost-all-dev
+ 
+sudo apt-get install software-properties-common
+ 
+sudo add-apt-repository ppa:bitcoin/bitcoin
+ 
+sudo apt-get update
+ 
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+ 
+sudo apt-get install libminiupnpc-dev
+ 
+sudo apt-get install libzmq3-dev
+ 
+#################Cái dưới này ko cần nhưng cứ cài ^^ vì ko cần dùng build wallet###################
+ 
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler 
+ 
+sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
+ 
+sudo apt-get install openssl1.0
+
+sudo apt-get install libssl1.0-dev 
+
+########################
+
+
+git clone https://github.com/boxaltcoin/vuicoin.git -b 0.16
+
+## vì mình mới đang làm ở nhánh 0.16 ở các nhánh khác vẫn là thông tin của litecoin, nếu bạn đã làm sang b 0.18 thì phi vào đó, thậm chí bạn đã làm cả nhánh master rồi thì phi luôn vào ##
+
+cd vuicoin
+
+./autogen.sh
+
+./configure --without-gui --disable-wallet
+
+## Vì nó là dns seed nên ko cần gui và wallet##
+## Vì VPS có 2 vCPU tức 2 core nêm make -j2, nếu VPS của bạn có bao nhiêu core thì build bấy nhiêu cho khỏe, cho nhanh
+## Build mất khoảng 10-15 phút
+## Các bạn đăng ký AWS amazon hay ibm cloud hay google cloud thì claim 300$ miễn phí để tạo VPS
+## Nói chung là đỡ được một khoản kha khá trước khi đưa coin vào hoạt động chính thức
+## Xong rồi chạy thử nào
+## Chạy đẹp nhé
+## Dừng lại tý để config phát
+
+
+
+
+
+make -j2
+
+cd src
+
+./vuicoind --printtoconsole --daemon --reindex --txindex --server=1
+
+cd vuicoin/src
+
+./vuicoin-cli stop
+
+cd ../..
+
+ls -a
+
+## Hiển thị cả thư mục ẩn
+
+cd .vuicoin/
+
+nano vuicoin.conf
+
+
+## Vì VPS mình chỉ mở mỗi port 9888 nên phải thêm :9888 vào sau IP
+## Nếu VPS đã mở tất cả các port thì các bạn chỉ cần để mỗi IP thôi
+Lưu ý:
+- Nếu bạn dùng cloudflare thì các record A (cho subdomain vSeeds.emplace_back("vuicoinseed.boxaltcoin.xyz"); )bạn nên tắt Proxied màu vàng sang xám Proxy status DNS only
+- Và không cần thêm bước addnode=xxx.xxx.xxx cho coin
+
+#addnode=3.98.131.147:9888
+#addnode=3.96.131.61:9888
+server=1
+whitelist=127.0.0.1
+txindex=1
+addressindex=1
+timestampindex=1
+spentindex=1
+rpcallowip=127.0.0.1
+rpcuser=user
+rpcpassword=password
+rpcport=9999
+reindex=1
+gen=0
+addrindex=1
+logevents=1
+
+Ctr O
+
+Ctr X
+
+cd ..
+
+cd vuicoin/src
+
+./vuicoind --printtoconsole --daemon --reindex --txindex
+
+
+##Hết
+##Chạy vào local xem nó có nhận 2 VPS mới này không
+## Đẹp rồi nhé
+## Như vậy là bạn đã bước đầu đưa nó lên trên internet. Còn vài bước nữa là hoàn thành việc build coin
+## Like share và sub giúp mình
+## Nhớ nhấn cả nhận thông báo
+## Video tiếp theo mình sẽ hướng dẫn các bạn tạo 1 release đầu tiên 
+## Các bạn chuẩn bị cho mình 1 file ảnh 1024x1024 px để làm logo
+## Thay vào code
