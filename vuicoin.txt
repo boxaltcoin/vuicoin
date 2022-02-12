@@ -1,0 +1,99 @@
+Buil your coin from Litecoin version 0.15.1
+
+############################ Change info ####################################
+
+find ./ -type f -readable -writable -exec sed -i "s/litecoin-project/boxaltcoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/Litecoin/Vuicoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/LiteCoin/VuiCoin/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/LITECOIN/VUICOIN/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/LTC/VUI/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/litecoin/vuicoin/g" {} \;
+
+
+
+############################## Change unit ##################################
+
+
+find ./ -type f -readable -writable -exec sed -i "s/lites/namvui/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/photons/thangvui/g" {} \;
+
+find ./ -type f -readable -writable -exec sed -i "s/litoshi/ngayvui/g" {} \;
+
+
+############################ Change port ####################################
+
+find ./ -type f -readable -writable -exec sed -i "s/9333/9888/g" {} \;
+
+############################ Rename ####################################
+
+sudo apt install rename
+
+find . -exec rename 's/litecoin/vuicoin/' {} ";"
+
+
+
+
+############################## Make publickey ##################################
+
+openssl ecparam -genkey -name secp256k1 -out genesiscoinbase.pem
+
+openssl ec -in genesiscoinbase.pem -text > genesiscoinbase.hex
+
+################################################################
+
+date +%s
+
+
+############################## Genesis hash finder ##################################
+
+git clone https://github.com/vuicash/GenesisH0.git
+
+sudo apt install python-pip
+
+cd GenesisH0
+
+sudo pip install scrypt construct==2.5.2
+
+############################## Find genesis hash , nonce ##################################
+
+
+
+############## MainNet Find ##############
+
+python genesis.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1317972665 -n 2084524493 -b 0x1e0ffff0
+
+############## TestNet Find ##############
+
+python genesis.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1486949366 -n 293345 -b 0x1e0ffff0
+
+############## RegTest Find ##############
+
+python genesis.py -a scrypt -z "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1296688602 -n 0 -b 0x207fffff
+
+
+############################### Change magic key make new chain #################################
+
+
+
+consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");// Start
+
+https://en.bitcoin.it/wiki/List_of_address_prefixes
+
+48 	L 
+
+70-71 	V 
+132-133 	v 
+
+############################### Build #################################
+
+./autogen.sh
+
+./configure
+
+make -j4
