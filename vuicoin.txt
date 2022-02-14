@@ -1,5 +1,11 @@
 Buil your coin from Litecoin version 0.15.1
 
+Update .gitignore
+# Keep depends file
+*.patch
+!depends/patches/**/*.patch
+!depends/Makefile
+
 ############################ Change info ####################################
 
 find ./ -type f -readable -writable -exec sed -i "s/litecoin-project/boxaltcoin/g" {} \;
