@@ -60,8 +60,10 @@ Install by command:
 	openSUSE-42     openSUSE Leap 42
 	SLES-12         SUSE Linux Enterprise Server v12
 	Ubuntu-16.04    Ubuntu 16.04 LTS
- Ubuntu-18.04    Ubuntu 18.04 LTS
+	Ubuntu-18.04    Ubuntu 18.04 LTS
 	Ubuntu-20.04    Ubuntu 20.04 LTS
+ 
+	
 	
 	Afer that use
 	wsl --install -d Ubuntu-18.04
