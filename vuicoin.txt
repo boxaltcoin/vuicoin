@@ -1,5 +1,6 @@
 Buil your coin from Litecoin version 0.15.1
 
+#Trước khi làm hãy nhớ sửa lại file .gitignore để sau này nó không nó xoá file trong thư mục depends, sẽ sử dụng để build window wallet qua Windows Subsystem for Linux
 Update .gitignore
 # Keep depends file
 *.patch
@@ -20,7 +21,11 @@ find ./ -type f -readable -writable -exec sed -i "s/LTC/VUI/g" {} \;
 
 find ./ -type f -readable -writable -exec sed -i "s/litecoin/vuicoin/g" {} \;
 
+Làm đến bước này sẽ bị lỗi bạn cần xoá file index rồi đẩy kên github
 
+Nhấn Ctr + H để hiển thị thư mục bị ẩn
+
+Xóa file .git/index
 
 ############################## Change unit ##################################
 
