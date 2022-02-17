@@ -1,0 +1,146 @@
+##########################################################
+
+sudo apt-get update
+
+sudo apt-get install build-essential gcc make perl dkms
+
+sudo reboot
+
+sudo apt-get install git
+ 
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+ 
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+ 
+sudo apt-get install libboost-all-dev
+ 
+sudo apt-get install software-properties-common
+ 
+sudo add-apt-repository ppa:bitcoin/bitcoin
+ 
+sudo apt-get update
+ 
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+ 
+sudo apt-get install libminiupnpc-dev
+ 
+sudo apt-get install libzmq3-dev
+ 
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+ 
+sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
+ 
+ 
+sudo apt-get install openssl1.0
+
+sudo apt-get install libssl1.0-dev 
+
+########## For Ubuntu 16 need upgrade ###########
+
+sudo apt-get upgrade
+
+################################################################## 
+
+On the Ubuntu 16
+
+Build from Dash Core 0.12.2.1 
+
+git clone https://github.com/dashpay/dash.git
+
+git checkout -b 0.12
+
+or download from github
+
+
+##################################################################
+
+Copy from Important Save for feature info (*) to your src/chainparams.cpp
+
+
+
+###################################################################
+
+sudo apt-get install curl build-essential libtool autotools-dev automake pkg-config python3 libssl-dev libevent-dev bsdmainutils
+
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+
+sudo apt-get install libboost-all-dev
+
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+
+sudo apt-get install libqrencode-dev
+
+cd depends
+
+make -j4
+
+########## If make error Please upgrade and try make again ##########
+
+sudo apt-get upgrade
+
+
+########## Fix link ##########
+
+########## dash-0.12.2.1/depends/sources/download-stamps/.stamp_fetched-expat-expat-2.1.0.tar.gz.hash] Error 22
+
+depends/packages/expat.mk
+
+$(package)_download_path=https://github.com/libexpat/libexpat/releases/download/R_2_1_0/
+
+
+########### dash-0.12.2.1/depends/sources/download-stamps/.stamp_fetched-qt-qtbase-opensource-src-5.5.0.tar.gz.hash] Error 22
+
+depends/packages/qt.mk
+
+$(package)_download_path=http://download.qt.io/new_archive/qt/5.5/$($(package)_version)/submodules
+
+########## Fix link ##########
+
+
+
+cd ..
+
+./autogen.sh
+
+./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
+
+make -j4
+
+
+###################################################################
+Tuyệt vời
+
+cd src/qt
+
+./dash-qt
+
+Copy Mainnet vSporkAddresses
+
+VX3NVP2AS45P2Kj1A2iH5xEH2jLR6VYQkG
+
+./dash-qt --testnet
+
+Copy Testnet vSporkAddresses
+
+v7wFdeJUKbC8XFqZYcnjMLxgqbaMhyAfZv
+
+
+./dash-qt --regtest
+
+Copy Regtest =  Devnet vSporkAddresses
+
+
+ycBCjTMDHFLcxUKXFt91RTUqqCGD2BnoV9
+
+
+################################################################## 
+Come back Ubuntu 18
+
+Put your vSporkAddresses you have on Ubuntu 16
+
+Check your new chain
+
+Have a fun!
+
+Good luck.
+
