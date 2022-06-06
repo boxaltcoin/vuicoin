@@ -15,7 +15,7 @@ https://en.bitcoin.it/wiki/List_of_address_prefixes
 
 ############################## Make publickey ##################################
 
-openssl ecparam -genkey -name secp256k1 -out genesiscoinbase.pem
+openssl ecparam -name secp256r1 -genkey -out genesiscoinbase.pem
 
 openssl ec -in genesiscoinbase.pem -text > genesiscoinbase.hex
 
